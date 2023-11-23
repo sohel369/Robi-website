@@ -91,6 +91,50 @@ form input:placeholder {
     display: grid;
 }
 
+.content {
+    margin-left: 25%;
+    width: 400px;
+    margin-right: 10px;
+    margin-top: 110px;
+}
+
+.content h2 {
+    color: white;
+    font-size: 70px;
+}
+
+.content p {
+    color: tomato;
+    font-size: 28px;
+}
+
+.content input {
+    padding: 8px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: rgb(24, 173, 99);
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.content input:active {
+    filter: brightness(50%);
+}
+
+.fb{
+    display: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: green;
+    background: tomato;
+    cursor: pointer;
+    padding: 6px 20px;
+    border: 2px solid darkred;
+}
+
+
 
 
 
@@ -147,8 +191,26 @@ form input:placeholder {
         position: absolute;
         left: 10px;
         top: 10px;
-
     }
+
+    .content {
+        width: 95%;
+        margin-top: 150px;
+        margin-left: 4px;
+    }
+
+    .content h2 {
+        font-size: 28px;
+    }
+
+    .content p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .content .fb{
+        display: inline-block;
+    }
+
 
 
 }
