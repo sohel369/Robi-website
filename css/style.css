@@ -92,10 +92,16 @@ form input:placeholder {
 }
 
 .content {
-    margin-left: 25%;
+    margin-left: 80px;
     width: 400px;
     margin-right: 10px;
     margin-top: 110px;
+}
+.content img{
+    width: 400px;
+    position: absolute;
+    right: 20px;
+    top: 100px;
 }
 
 .content h2 {
@@ -197,6 +203,11 @@ form input:placeholder {
         width: 95%;
         margin-top: 150px;
         margin-left: 4px;
+    }
+    .content img{
+        width: 220px;
+        z-index: -1;
+        margin-top: 210px;
     }
 
     .content h2 {
