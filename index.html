@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Robiul Islam</title>
+    <link rel="shortcut icon" href="./media/401859799_308825832074810_934813761523185992_n.jpg">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+
+    <h1>SOHEL</h1>
+    <div class="bars">
+        <i class="fa-solid fa-bars" onclick="myfunc()">
+        </i>
+    </div>
+    <nav id="navv">
+        <div class="logo">
+
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Liked</a></li>
+        </ul>
+        <form autocomplete="on">
+            <input type="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+        </form>
+    </nav>
+
+
+
+    <script>
+        let bars = document.getElementById('navv');
+
+        function myfunc() {
+            if (bars.style.display === "block") {
+                bars.style.display = "none";
+            } else {
+                bars.style.display = "block";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
